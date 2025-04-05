@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+tr td {
+    width: 1000px;
+    height: 80px;
+}
+table{
+    background-color: #033FAA;
+    height: 100vh;
+}
+td{
+    max-width: 300px;
+    color: white;
+   
+}
+#logo{
+    text-align: center;
+}
+.logoContent{
+   min-height: 100%;
+    display: flex;
+    align-items: center;
+}
+.topo{
+    background-color:#033FAA;
+    width: 10px;
+}
+#centralText{
+   font-size: 115px;
+   color: white;
+   font-family: "Mokoto";
+   
+}   
+#solutions{
+    font-size: 35px;
+}
+a{
+    
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.comIcones{
+    display: flex;
+    align-items: center;
+}
+@font-face {
+    font-family: "Mokoto";
+    src: url(Mokoto\ Demo.ttf);
+}
